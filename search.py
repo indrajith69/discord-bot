@@ -11,7 +11,7 @@ from selenium.webdriver.firefox.options import Options
 
 PATH = "selenium/geckodriver"
 options = Options()
-#options.headless = True
+options.headless = True
 
 
 def search_kissanime(anime):
